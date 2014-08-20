@@ -1,0 +1,2 @@
+api_token: <%= ENV['TEST_FLIGHT_API_TOKEN'] %>
+team_token: <%= ENV['TEST_FLIGHT_TEAM_TOKEN'] %>
