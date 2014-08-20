@@ -1,6 +1,8 @@
 require 'haml' # to avoid "WARN: tilt autoloading 'haml' in a non thread-safe way"
+require 'sass'
 require 'sprockets'
 require 'sprockets-helpers'
+# require 'sprockets-sass'
 require 'uglifier'
 require 'haml_coffee_assets'
 

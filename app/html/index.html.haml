@@ -1,0 +1,12 @@
+!!! 5
+%html
+  %head
+    %title Your App
+    = javascript_tag 'application', :expand => false
+    = stylesheet_tag 'application'
+  %body
+
+:javascript
+  $(document).ready(function() {
+    App.initialize();
+  });
