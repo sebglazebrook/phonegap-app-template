@@ -1,4 +1,5 @@
 //= require ./init
+//= require ./paths
 //= require hamlcoffee
 //= require jquery
 //= require underscore
